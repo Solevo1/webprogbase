@@ -1,0 +1,50 @@
+{
+  "nextId": 6,
+  "items": [
+    {
+      "id": 1,
+      "login": "admin",
+      "fullname": "Ivan Ivanov",
+      "role": "1",
+      "registeredAt": "2020-09-30",
+      "avaUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Man_silhouette.svg/1200px-Man_silhouette.svg.png",
+      "isEnabled": true
+    },
+    {
+      "id": 2,
+      "login": "EvilArthas",
+      "fullname": "Vitaly Tsal",
+      "role": "0",
+      "registeredAt": "2010-10-10",
+      "avaUrl": "https://memepedia.ru/wp-content/uploads/2018/08/papich-768x432.jpg",
+      "isEnabled": true
+    },
+    {
+      "id": 3,
+      "login": "stray228",
+      "fullname": "Oleg Bocharov",
+      "role": "0",
+      "registeredAt": "2012-12-12",
+      "avaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSosjhWvjk8Z3rMnPKRiO-j0imxi0o1QuXVXw&usqp=CAU",
+      "isEnabled": true
+    },
+    {
+      "id": 4,
+      "login": "ALOHADANCE",
+      "fullname": "Ilya Korobkin",
+      "role": "0",
+      "registeredAt": "2015-05-15",
+      "avaUrl": "https://svirtus.cdnvideo.ru/C-x3aSVsJ-EidCcUmmGpSQJwXPg=/0x0:202x204/200x200/filters:quality(100)/https://hb.bizmrg.com/esports-core-media/b8/b8d4c9fbc430edff7c97c3cb30a16d9f.png?m=a3d1137b8e92514db737b7cb3434790f",
+      "isEnabled": false
+    },
+    {
+      "id": 5,
+      "login": "Sh4dowehhh",
+      "fullname": "Evgeny Alekseev",
+      "role": "0",
+      "registeredAt": "2011-11-11",
+      "avaUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f3a1f08d-f89f-4c63-b0c4-d7ea33788f6b-profile_image-300x300.png",
+      "isEnabled": true
+    }
+  ]
+}
