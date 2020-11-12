@@ -1,0 +1,116 @@
+{
+    "nextId": 17,
+    "items": [
+        {
+            "id": 2,
+            "name": "Pegas",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31"
+        },
+        {
+            "id": 4,
+            "name": "Fly",
+            "countries": "Moon",
+            "amount_tours": 1,
+            "amount_departments": 1,
+            "foundation_date": "2020-10-09"
+        },
+        {
+            "id": 5,
+            "name": "Inside",
+            "countries": "Ukraine",
+            "amount_tours": 99,
+            "amount_departments": 322,
+            "foundation_date": "1999-09-09"
+        },
+        {
+            "id": 6,
+            "name": "test",
+            "countries": "ukr",
+            "amount_tours": 34,
+            "amount_departments": 2,
+            "foundation_date": "2018-09-03"
+        },
+        {
+            "id": 7,
+            "name": "test",
+            "countries": "test",
+            "amount_tours": 34,
+            "amount_departments": 2
+        },
+        {
+            "id": 8,
+            "name": "test",
+            "countries": "test",
+            "amount_tours": 34,
+            "amount_departments": 2,
+            "foundation_date": "2018-09-03"
+        },
+        {
+            "id": 9,
+            "name": "test",
+            "countries": "test",
+            "amount_tours": 34,
+            "amount_departments": 2,
+            "foundation_date": "2018-09-03"
+        },
+        {
+            "id": 10,
+            "name": "Fly",
+            "countries": "Moon",
+            "amount_tours": 1,
+            "amount_departments": 1,
+            "foundation_date": "2020-10-09"
+        },
+        {
+            "id": 11,
+            "name": "Fly",
+            "countries": "Moon",
+            "amount_tours": 1,
+            "amount_departments": 1,
+            "foundation_date": "2020-10-09"
+        },
+        {
+            "id": 12,
+            "name": "Fly",
+            "countries": "Moon",
+            "amount_tours": 1,
+            "amount_departments": 1,
+            "foundation_date": "2020-10-09"
+        },
+        {
+            "id": 13,
+            "name": "Fly",
+            "countries": "Moon",
+            "amount_tours": 1,
+            "amount_departments": 1,
+            "foundation_date": "2020-10-09"
+        },
+        {
+            "id": 14,
+            "name": "string",
+            "countries": "string",
+            "amount_tours": 0,
+            "amount_departments": 0,
+            "foundation_date": "2020-11-11"
+        },
+        {
+            "id": 15,
+            "name": "string",
+            "countries": "string",
+            "amount_tours": 0,
+            "amount_departments": 0,
+            "foundation_date": "2020-01-01"
+        },
+        {
+            "id": 16,
+            "name": "string",
+            "countries": "string",
+            "amount_tours": 0,
+            "amount_departments": 0,
+            "foundation_date": "2020-10-10"
+        }
+    ]
+}

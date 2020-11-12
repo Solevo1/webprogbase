@@ -1,0 +1,29 @@
+{
+    "nextId": 7,
+    "items": [
+        {
+            "id": 1,
+            "path": "data/media/1.jpeg"
+        },
+        {
+            "id": 2,
+            "path": "data/media/2.jpeg"
+        },
+        {
+            "id": 3,
+            "path": "data/media/3.jpeg"
+        },
+        {
+            "id": 4,
+            "path": "data/media/structure.png"
+        },
+        {
+            "id": 5,
+            "path": "data/media/Screenshot from 2020-09-14 22-57-14.png"
+        },
+        {
+            "id": 6,
+            "path": "data/media/structure.png"
+        }
+    ]
+}

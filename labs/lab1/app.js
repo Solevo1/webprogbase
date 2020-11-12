@@ -31,7 +31,28 @@ while (true) {
             console.log(`Error: user with id ${userId} not found.`);
             continue;
         }
-        console.log(user);
+        const fullname=user.fullname.split(" ");
+        const name=fullname[0];
+        const surname=fullname[1];
+        let role;
+        if(user.role===1){
+            role="admin";
+        }
+        else{
+            role="user";
+        }
+        let status;
+        if(user.isEnabled){
+            status="Enabled";
+        }
+        else{
+            status="Disabled";
+        }
+        console.log(`${name} "${user.login}" ${surname}
+Role: ${role}
+Registration date: ${user.registeredAt}
+Avatar: ${user.avaUrl}
+Status: ${status} `);
     }
     else if (action === "get" && command === "operators" && input === undefined) {
         const operators = operatorRepository.getTour_operators();
@@ -48,7 +69,11 @@ while (true) {
             console.log(`Error: operator with id ${operatorId} not found.`);
             continue;
         }
-        console.log(operator);
+        console.log(`Tour operator "${operator.name}"
+List of countries: ${operator.countries}
+Amount of tours: ${operator.amount_tours}
+Amount of departments: ${operator.amount_departments}
+Foundation date: ${operator.foundation_date}`);
     }
     else if (action === "delete" && command === "operators" && input !== undefined) {
         const operatorId = Number(input);
