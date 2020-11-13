@@ -1,5 +1,5 @@
 {
-    "nextId": 9,
+    "nextId": 4,
     "items": [
         {
             "id": 1,
@@ -12,26 +12,6 @@
         {
             "id": 3,
             "path": "data/media/3.png"
-        },
-        {
-            "id": 4,
-            "path": "data/media/structure.png"
-        },
-        {
-            "id": 5,
-            "path": "data/media/Screenshot from 2020-09-14 22-57-14.png"
-        },
-        {
-            "id": 6,
-            "path": "data/media/structure.png"
-        },
-        {
-            "id": 7,
-            "path": "data/media/structure.png"
-        },
-        {
-            "id": 8,
-            "path": "data/media/structure.png"
         }
     ]
 }
