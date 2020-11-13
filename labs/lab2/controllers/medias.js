@@ -6,10 +6,9 @@ module.exports = {
         try {
             let media = mediaRepository.getMediaById(req.params.id);
             let responce = {
-                id: req.params.id,
-                image: media
+                image: {data:media}
             };
-            res.send(JSON.stringify(responce, null, 4));
+            res.send(JSON.stringify(responce));
         } catch (err) {
             res.statusCode = 404;
             res.send(JSON.stringify({ error: 'Media with this id wasnt found' }));
@@ -20,10 +19,6 @@ module.exports = {
         console.log(req.files);
         res.statusCode = 201;
         const id = mediaRepository.addMedia(req.files.image);
-        let responce = {
-            id: id,
-            image: req.files.image
-        };
         res.send(JSON.stringify ({id:id}));
     }
 };

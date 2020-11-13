@@ -9,14 +9,14 @@ module.exports = {
             page_size=2;
         }
         if(!Number.isInteger(page_size) || page_size<1 || page_size>10 ){
-            return res.status(400).json({Error:"Page size should be natural number and <10"});
+            return res.status(404).json({Error:"Page size should be natural number and <10"});
         }
         let page_number = Number.parseInt(req.query.page);
         if(req.query.page===undefined){
             page_number=1;
         }
         if(!Number.isInteger(page_number) || page_number<1){
-            return res.status(400).json({Error:"Page should be natural number"});
+            return res.status(404).json({Error:"Page should be natural number"});
         }
         const users = userRepository.getUsers();
         const items_total = users.length;

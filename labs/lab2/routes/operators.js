@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const operatorController = require('../controllers/operators.js');
 const bodyParser = require('body-parser');
-//const Tour_operator = require('../models/tour_operator.js');
 const jsonParser = bodyParser.json();
 
 
@@ -11,7 +10,7 @@ const jsonParser = bodyParser.json();
  * @group Operators - operator operations
  * @param {integer} page.query - page number
  * @param {integer} per_page.query - items per page
- * @returns {Array<Tour_operator>} 200 - a page with operators
+ * @returns {Array.<Tour_operator>} 200 - a page with operators
  */
 
 
@@ -33,21 +32,22 @@ const jsonParser = bodyParser.json();
 
 
 /**
- * @route PUT /api/games
+ * @route PUT /api/operators
  * @group Operators - operator operations
- * @param {Tour_operator.model} id.body.required - new Operator Object
- * @returns {Game.model} 200 - Updated game object
+ * @param {Tour_operator.model} object.body.required - new Operator Object
+ * @returns {Tour_operator.model} 200 - Updated game object
  * @returns {Error} 400 - Invalid field data
+  * @returns {Error} 404 - Operator not found
  */
-
 
 /**
- * @route DELETE /api/games
+ * @route DELETE /api/operators/{id}
  * @group Operators - operator operations
- * @param {integer} id.path.required - id of operator
- * @returns {Game.model} 200 - Deleted game object
- * @returns {Error} 404 - Game not found
+ * @param {integer} id.path.required - id of the Operator
+ * @returns {Tour_operator.model} 200 - deleted Operator object
+ * @returns {Error} 404 - Operator not found
  */
+
 router
     .get("/:id", operatorController.getTour_operatorById)
     .get("", operatorController.getTour_operators)

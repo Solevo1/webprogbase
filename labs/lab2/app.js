@@ -26,7 +26,7 @@ const options = {
             title: 'JSON HTTP API веб-сервер',
             version: '1.0.0',
         },
-        host: 'localhost:3000',
+        host: 'localhost:3001',
         produces: ["application/json"],
     },
     basedir: __dirname,
@@ -36,6 +36,6 @@ const options = {
 expressSwagger(options);
 
 
-app.listen(3000, function () { console.log('Server is ready'); });
+app.listen(3001, function () { console.log('Server is ready'); });
 
 

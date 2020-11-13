@@ -1,5 +1,5 @@
 {
-    "nextId": 7,
+    "nextId": 9,
     "items": [
         {
             "id": 1,
@@ -11,7 +11,7 @@
         },
         {
             "id": 3,
-            "path": "data/media/3.jpeg"
+            "path": "data/media/3.png"
         },
         {
             "id": 4,
@@ -23,6 +23,14 @@
         },
         {
             "id": 6,
+            "path": "data/media/structure.png"
+        },
+        {
+            "id": 7,
+            "path": "data/media/structure.png"
+        },
+        {
+            "id": 8,
             "path": "data/media/structure.png"
         }
     ]
