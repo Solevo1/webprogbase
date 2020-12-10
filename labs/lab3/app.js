@@ -1,6 +1,19 @@
 const express = require('express');
 const app = express();
+const mustache = require('mustache-express')
+const consolidate = require('consolidate');
+const path = require('path');
+const viewsDir = path.join(__dirname, 'views');
+const partialsDir= path.join(viewsDir,'partials');
+app.engine('mst', mustache(partialsDir));
+app.set('views', viewsDir);
+app.set('view engine', 'mst');
 
+
+
+
+const morgan = require('morgan');
+app.use(morgan('dev'));
 const userRouter = require('./routes/users');
 const operatorRouter = require('./routes/operators');
 const mediaRouter = require('./routes/media.js');
@@ -11,11 +24,18 @@ const busboyOptions = {
     multi: false,
 };
 app.use(busboy(busboyOptions));
+app.use(express.static('public'));
+// app.use(function(req, res){console.log('Non-static request');});
 
-app.use('/api/users', userRouter);
-app.use('/api/operators', operatorRouter);
+app.get('/', function(req, res) {
+    res.render('index');
+});
+app.get('/about', function(req, res) {
+    res.render('about');
+});
+app.use('/users', userRouter);
+app.use('/operators', operatorRouter);
 app.use('/api/media', mediaRouter);
-
 const expressSwaggerGenerator = require('express-swagger-generator');
 const expressSwagger = expressSwaggerGenerator(app);
 
@@ -36,6 +56,6 @@ const options = {
 expressSwagger(options);
 
 
-app.listen(3000, function () { console.log('Server is ready'); });
+app.listen(3005, function () { console.log('Server is ready'); });
 
 

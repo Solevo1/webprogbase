@@ -1,0 +1,29 @@
+{
+    "nextId": 39,
+    "items": [
+        {
+            "id": 2,
+            "name": "Pegas",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31"
+        },
+        {
+            "id": 4,
+            "name": "Fly",
+            "countries": "Moon",
+            "amount_tours": 1,
+            "amount_departments": 1,
+            "foundation_date": "2020-10-09"
+        },
+        {
+            "id": 5,
+            "name": "Inside",
+            "countries": "Ukraine",
+            "amount_tours": 99,
+            "amount_departments": 322,
+            "foundation_date": "1999-09-09"
+        }
+    ]
+}

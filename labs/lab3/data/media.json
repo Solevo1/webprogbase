@@ -1,0 +1,17 @@
+{
+    "nextId": 4,
+    "items": [
+        {
+            "id": 1,
+            "path": "data/media/1.jpeg"
+        },
+        {
+            "id": 2,
+            "path": "data/media/2.jpeg"
+        },
+        {
+            "id": 3,
+            "path": "data/media/3.png"
+        }
+    ]
+}

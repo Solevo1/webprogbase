@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web</title>
+    {{> head}}
+</head>
+
+<body>
+    {{> header}}
+    <p style="top: 50pt;position: absolute;font-size:40pt"> 
+    Web - тестовий сайт з можливістю роботи із користувачами та операторами</p>
+    {{> footer}}
+</body>
+
+</html>

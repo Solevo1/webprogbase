@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Operators</title>
+    {{> head}}
+</head>
+<body>
+    {{> header}} 
+    <div class="content">
+    <h1>
+    Список туроператорів</h1>  
+    <ul class="circle">
+    {{#operators}}
+	    <li><a href='/operators/{{id}}'>{{name}}</a></li>
+    {{/operators}}
+    </ul>
+    </div>
+    {{> footer}}
+</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+    background-color: #ffffff;
+    background-size: 100%;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(41, 41, 41);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footer {
+  
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #000000; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   
+}
+.active {
+    background-color: #4CAF50;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    left: 20;
+}
+
+.logo img {
+    float: left;
+    position: relative;
+    top: 50;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.logo a {
+    float: right;
+    color: #cacaca;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.logo a:hover:not(.active) {
+  background-color: rgb(219, 37, 37);
+}
+
+.menu {
+    float: right;
+    position: relative;
+    right: 400;
+    top: 5px;
+}
+
+.menu a {
+    margin-left: 100px;
+    float: left;
+    color: #cacaca;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover:not(.active) {
+  background-color: rgb(219, 37, 37);
+}
+
+
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content{
+  top: 50pt;
+  position: absolute;
+
+}
+
+.circle{
+  top: 50pt;
+  position: absolute;
+  counter-reset: list-counter;
+  list-style: none;
+  float:left;
+}
+.circle li{
+  margin: 1.5em 0;    
+}
+.circle li:before{
+  content: counter(list-counter);
+  counter-increment: list-counter;
+  width: 1em;
+  height: 1em;
+  padding: .5em;
+  margin-right: 1em;
+  border-radius: 50%;
+  border: .25em solid #ccc;
+  background: #000;
+  color: #fff;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  
+}

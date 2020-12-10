@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>Web</title>
+    {{> head}}
+</head>
+
+<body>
+    {{> header}}
+    <div class=content>
+    <img src={{avaUrl}} alt="User image" width="200" height="150">
+    <p> {{fullname}}</p>
+    <p> ({{login}}) {{registeredAt}}</p>
+    <p> {{bio}}</p>
+    <div>
+    {{> footer}}
+</body>
+
+</html>

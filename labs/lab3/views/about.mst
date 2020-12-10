@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>About</title>
+    {{> head}}
+</head>
+
+<body>
+    {{> header}}
+    <div class=content>
+    <h1> Web - тестовий сайт з можливістю роботи із користувачами та операторами</h1>
+    <h2>Автор</h2>
+    <p>Мельник Ігор Сергійович</p>
+    <p>telegram: <a href="https://t.me/typical_sirius">@typical_sirius</a></p>
+    </div>
+    {{> footer}}
+</body>
+
+</html>

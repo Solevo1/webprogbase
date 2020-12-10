@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Web</title>
+    {{> head}}
+</head>
+
+<body>
+    {{> header}}
+    <div class=content>
+    <p> {{name}}</p>
+    <p> {{countries}}</p>
+    <p> {{amount_tours}}</p>
+    <p> {{amount_departments}}</p>
+    <p> {{foundation_date}}</p>
+    <div>
+    {{> footer}}
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Users</title>
+    {{> head}}
+</head>
+<body>
+    {{> header}}
+    <div class=content>   
+    <table class="  styled-table">
+	<caption font-size=10pt>Users</caption>
+    <thead>
+        <tr>
+            <th>Login</th>
+		<th>Fullname</th>
+		<th>Redisteged</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#users}}
+	<tr>
+		<td><a href='/users/{{id}}'>{{login}}</a></td>
+		<td>{{fullname}}</td>
+		<td>{{registeredAt}}</td>
+	</tr>
+    {{/users}}
+    </tbody>
+</table>
+</div>
+{{> footer}}
+</body>
+</html>

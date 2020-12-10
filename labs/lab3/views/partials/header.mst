@@ -1,0 +1,10 @@
+<ul class="header">
+        <li class="logo">
+            <img src="/images/web.png">
+            <a href="/">Web</a> </li>
+        <li class="menu">
+            <a href="/">Home</a>
+            <a href="/users">Users</a>
+            <a href="/operators">Operators</a>
+            <a href="/about">About</a></li>
+</ul>
