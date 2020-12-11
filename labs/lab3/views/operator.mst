@@ -10,11 +10,35 @@
 <body>
     {{> header}}
     <div class=content>
-    <p> {{name}}</p>
-    <p> {{countries}}</p>
-    <p> {{amount_tours}}</p>
-    <p> {{amount_departments}}</p>
-    <p> {{foundation_date}}</p>
+    <table class="  styled-table">
+	<caption font-size=40pt> Оператор</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+		<th>Countries</th>
+		<th>Amount of tours</th>
+        <th>Amount of departments</th>
+        <th>Foundation date</th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+		<td>{{name}}</td>
+		<td>{{countries}}</td>
+		<td>{{amount_tours}}</td>
+        <td>{{amount_departments}}</td>
+        <td>{{foundation_date}}</td>
+	</tr>
+    </tbody>
+</table>
+    <div  style="float: right;
+    position: relative;">
+    <img  src={{url}} alt="Operator image" width="200" height="150">
+    <a href ={{url}}>Photo</a>
+    </div>
+    <form method="POST" action="/operators/{{id}}">
+                    <input type="submit" value="delete">
+                </form>
     <div>
     {{> footer}}
 </body>

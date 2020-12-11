@@ -8,8 +8,11 @@
 
 <body>
     {{> header}}
-    <p style="top: 50pt;position: absolute;font-size:40pt"> 
+    <div class=content>
+    <p style="font-size:25pt"> 
     Web - тестовий сайт з можливістю роботи із користувачами та операторами</p>
+    <img src="/images/web.png" alt="Web image width="200" height="150">
+    </div>
     {{> footer}}
 </body>
 

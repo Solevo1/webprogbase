@@ -1,3 +1,11 @@
+
+.pagination{
+  float: left;
+    position: absolute;
+    left: 0;
+    top: 230pt;
+}
+
 body {
     background-color: #ffffff;
     background-size: 100%;
@@ -122,6 +130,7 @@ body {
   top: 50pt;
   position: absolute;
 
+
 }
 
 .circle{
@@ -150,4 +159,55 @@ body {
   text-align: center;
   display: inline-block;
   
+}
+
+.next {
+  
+  background-color: rgb(41, 41, 41);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.prev {
+  
+  background-color: rgb(41, 41, 41);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.current {
+  
+  background-color: rgb(41, 41, 41);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.post {
+  
+  float: left;
+    position: absolute;
+    left: 300pt;
+    top: 170pt;
+  background-color: rgb(41, 41, 41);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }

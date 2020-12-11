@@ -2,20 +2,34 @@
 <html lang="en">
 <head>
     
-    <title>Operators</title>
+    <title>Users</title>
     {{> head}}
 </head>
 <body>
-    {{> header}} 
-    <div class="content">
-    <h1>
-    Список туроператорів</h1>  
+    {{> header}}
+    <div class=content>   
+    <h1>Список туроператорів</h1>  
     <ul class="circle">
     {{#operators}}
-	    <li><a href='/operators/{{id}}'>{{name}}</a></li>
+      <li><a href='/operators/{{id}}'>{{name}}</a></li>
+    {{/operators}}
+    {{^operators}}
+       <li>{{error}}</li>
     {{/operators}}
     </ul>
-    </div>
-    {{> footer}}
+    <p>{{input}}</p>  
+    <form style="float:right;position: relative;left:100pt;top=0">
+  Пошук за назвою:<br>
+  <input type="text" name="name"><br>
+  <input type="submit" value="Submit">
+</form>
+ <a class="post" href="/operators/new">ADD</a>
+</div>
+<div class="pagination">
+                    <a class="prev" href="/operators?page={{prev}}&name={{name}}">prev</a>
+                    <a class="current">{{page}}</a>
+                    <a class="next" href="/operators?page={{next}}&name={{name}}">next</a>
+                </div>
+{{> footer}}
 </body>
 </html>

@@ -7,6 +7,7 @@ class MediaRepository {
     }
 
     addMedia(media) {
+        console.log(media);
         const id = this.storage.writeMedia(media);
         return id;
     }

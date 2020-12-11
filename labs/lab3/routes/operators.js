@@ -49,10 +49,12 @@ const jsonParser = bodyParser.json();
  */
 
 router
+    .get("/new", function (req, res) {
+        res.render('new');
+    })
     .get("/:id", operatorController.getTour_operatorById)
     .get("", operatorController.getTour_operators)
     .post("/", jsonParser, operatorController.addTour_operator)
-    .put("/", jsonParser, operatorController.updateTour_operator)
-    .delete("/:id", operatorController.deleteTour_operator);
+    .post("/:id", operatorController.deleteTour_operator);
 
 module.exports = router;

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Users</title>
+    {{> head}}
+</head>
+<body>
+    {{> header}}
+    <div class=content>   
+    <form method="POST" action="/operators/" enctype="multipart/form-data">
+  Name:<br>
+  <input type="text" name="name" ><br>
+Countries:<br>
+  <input type="text" name="countries" ><br>
+Amount of tours:<br>
+  <input type="number" name="amount_tours" ><br>
+  Amount of departments:<br>
+  <input type="number" name="amount_departments" ><br>
+  Foundation date:<br>
+  <input type="text" name="foundation_date" ><br>
+  <input type="file" name="photoFile"><br>
+  <input type="submit" value="Submit">
+</form>
+
+                </div>
+{{> footer}}
+</body>
+</html>

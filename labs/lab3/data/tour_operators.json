@@ -1,5 +1,5 @@
 {
-    "nextId": 39,
+    "nextId": 14,
     "items": [
         {
             "id": 2,
@@ -7,7 +7,17 @@
             "countries": "France, Spain, Turkey",
             "amount_tours": "43",
             "amount_departments": "7",
-            "foundation_date": "2002-12-31"
+            "foundation_date": "2002-12-31",
+            "url": "/data/media/look.com.ua-1268.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Flux",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31",
+            "url": "/data/media/look.com.ua-6637.jpg"
         },
         {
             "id": 4,
@@ -15,7 +25,8 @@
             "countries": "Moon",
             "amount_tours": 1,
             "amount_departments": 1,
-            "foundation_date": "2020-10-09"
+            "foundation_date": "2020-10-09",
+            "url": "/data/media/look.com.ua-7034.jpg"
         },
         {
             "id": 5,
@@ -23,7 +34,53 @@
             "countries": "Ukraine",
             "amount_tours": 99,
             "amount_departments": 322,
-            "foundation_date": "1999-09-09"
+            "foundation_date": "1999-09-09",
+            "url": "/data/media/look.com.ua-7886.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Intourist",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31",
+            "url": "/data/media/look.com.ua-16620.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Traveller",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31",
+            "url": "/data/media/look.com.ua-17158.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Mekka",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31",
+            "url": "/data/media/look.com.ua-31861.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Penni",
+            "countries": "France, Spain, Turkey",
+            "amount_tours": "43",
+            "amount_departments": "7",
+            "foundation_date": "2002-12-31",
+            "url": "/data/media/look.com.ua-35644.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Poni",
+            "countries": "test",
+            "amount_tours": "12",
+            "amount_departments": "11",
+            "foundation_date": "2020-10-10",
+            "url": "/data/media/look.com.ua-35863.jpg"
         }
     ]
 }

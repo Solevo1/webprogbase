@@ -11,7 +11,7 @@ class Tour_operatorRepository {
         const items = this.storage.readItems();
         let operators=[];
         for (const item of items) {
-            const operator =new Tour_operator(item.id, item.name, item.countries, item.amount_tours, item.amount_departments, item.foundation_date);
+            const operator =new Tour_operator(item.id, item.name, item.countries, item.amount_tours, item.amount_departments, item.foundation_date, item.url);
             operators.push(operator);
         }
         return operators;
@@ -22,7 +22,7 @@ class Tour_operatorRepository {
         const items = this.storage.readItems();
         for (const item of items) {
             if (item.id === id) {
-                return new Tour_operator(item.id, item.name, item.countries, item.amount_tours, item.amount_departments, item.foundation_date);
+                return new Tour_operator(item.id, item.name, item.countries, item.amount_tours, item.amount_departments, item.foundation_date, item.url);
             }
         }
         throw new Error(`Operator with id ${id} doesnt exist.`);

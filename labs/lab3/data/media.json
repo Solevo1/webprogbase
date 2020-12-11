@@ -1,5 +1,5 @@
 {
-    "nextId": 4,
+    "nextId": 11,
     "items": [
         {
             "id": 1,
@@ -12,6 +12,34 @@
         {
             "id": 3,
             "path": "data/media/3.png"
+        },
+        {
+            "id": 4,
+            "path": "data/media/undefined"
+        },
+        {
+            "id": 5,
+            "path": "data/media/undefined"
+        },
+        {
+            "id": 6,
+            "path": "data/media/Screenshot from 2020-12-04 01-32-42.png"
+        },
+        {
+            "id": 7,
+            "path": "data/media/Screenshot from 2020-10-26 20-31-14.png"
+        },
+        {
+            "id": 8,
+            "path": "data/media/look.com.ua-142516.jpg"
+        },
+        {
+            "id": 9,
+            "path": "data/media/look.com.ua-118472.jpg"
+        },
+        {
+            "id": 10,
+            "path": "data/media/look.com.ua-114383.jpg"
         }
     ]
 }

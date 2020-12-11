@@ -9,7 +9,7 @@
     {{> header}}
     <div class=content>   
     <table class="  styled-table">
-	<caption font-size=10pt>Users</caption>
+	<caption font-size=40pt> Таблиця користувачів</caption>
     <thead>
         <tr>
             <th>Login</th>
